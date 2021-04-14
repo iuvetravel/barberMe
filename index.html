@@ -31,7 +31,21 @@
       </nav>
     </div>
     <div id="menuBtn">
-      <img src="img/01.png" alt="Menu" />
+      <img src="img/01.png" id="menu" />
     </div>
+
+    <script>
+      let menuBtn = document.getElementById("menuBtn");
+      let sideNav = document.getElementById("sideNav");
+      let menu = document.getElementById("menu");
+
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+        } else {
+          sideNav.style.right = "-250px";
+        }
+      };
+    </script>
   </body>
 </html>

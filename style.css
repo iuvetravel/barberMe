@@ -114,6 +114,7 @@ body {
     rgba(0, 0, 0, 0.3) 100.2%
   );
   z-index: 2;
+  transition: 1s;
 }
 
 nav ul li {
@@ -191,5 +192,6 @@ nav ul li a {
       rgba(238, 66, 102, 0.3) 90.2%
     );
     z-index: 2;
+    transition: 1s;
   }
 }
