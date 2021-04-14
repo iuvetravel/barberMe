@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Raleway:wght@100;300;500;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#banner {
+  background-image: linear-gradient(
+      109.6deg,
+      rgb(27, 5, 36) 18.2%,
+      rgba(238, 66, 102, 0.3) 100.2%
+    ),
+    url(img/01.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 15%;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+.banner-text h1 {
+  font-size: 6rem;
+  font-family: "Arizonia";
+  background: linear-gradient(45deg, #ffdf00, #c23b22);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  color: #f0b13b;
+  padding-top: 180px;
+}
+
+.banner-text p {
+  font-size: 2rem;
+  background: linear-gradient(45deg, #c23b22, #ffdf00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  color: #f0b13b;
+  padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 150px;
+  }
+  .banner-text h1 {
+    font-size: 3rem;
+  }
+  .banner-text p {
+    font-family: "Arizonia";
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: oblique;
+  }
+}
