@@ -69,4 +69,14 @@ body {
     font-weight: 500;
     font-style: oblique;
   }
+  #banner {
+    background-image: linear-gradient(
+        109.6deg,
+        rgb(27, 5, 36) 18.2%,
+        rgba(238, 66, 102, 0.3) 100.2%
+      ),
+      url(img/02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
