@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Arizonia", "Kaushan Script", sans-serif;
 }
 
 #banner {
@@ -50,6 +50,7 @@ body {
 
 .banner-text p {
   font-size: 2rem;
+  font-family: "Kaushan Script";
   background: linear-gradient(45deg, #c23b22, #ffdf00);
   background-clip: text;
   -webkit-background-clip: text;
@@ -73,7 +74,64 @@ body {
   padding: 12px 0;
   color: #ffdf00;
   border: 0.2px solid #ffdf00;
-} /* ================================Media========================== */
+  position: relative;
+  z-index: 1;
+  transition: color 1s;
+}
+
+.banner-btn a span {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #c23b22, #ffdf00);
+  z-index: -1;
+  transition: 1s;
+}
+
+.banner-btn a:hover span {
+  width: 100%;
+  border: 0.01px solid #c23b22;
+}
+
+.banner-btn a:hover {
+  color: #611f14;
+}
+
+#sideNav {
+  width: 200px;
+  height: 49vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  border-radius: 0 0 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+    rgba(0, 0, 0, 0.62) 0px 15px 12px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(27, 5, 36) 8.2%,
+    rgba(238, 66, 102, 0.3) 100.2%
+  );
+  z-index: 2;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f0b13b;
+  text-justify: right;
+  line-height: 2px;
+  margin: 0;
+  font-size: 1.8em;
+  font-family: "Kaushan Script";
+}
+
+/* ================================Media========================== */
 
 @media (max-width: 600px) {
   .logo {
