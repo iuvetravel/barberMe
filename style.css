@@ -101,7 +101,7 @@ body {
 
 #sideNav {
   width: 200px;
-  height: 49vh;
+  height: 50vh;
   position: fixed;
   right: 0;
   top: 0;
@@ -178,7 +178,7 @@ nav ul li a {
 
   #sideNav {
     width: 200px;
-    height: 49vh;
+    height: 46vh;
     position: fixed;
     right: 0;
     top: 0;
