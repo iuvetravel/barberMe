@@ -110,8 +110,8 @@ body {
     rgba(0, 0, 0, 0.62) 0px 15px 12px;
   background: linear-gradient(
     109.6deg,
-    rgb(27, 5, 36) 8.2%,
-    rgba(238, 66, 102, 0.3) 100.2%
+    rgb(0, 0, 0) 8.2%,
+    rgba(0, 0, 0, 0.3) 100.2%
   );
   z-index: 2;
 }
@@ -129,6 +129,24 @@ nav ul li a {
   margin: 0;
   font-size: 1.8em;
   font-family: "Kaushan Script";
+}
+
+#menuBtn {
+  width: 50px;
+  height: 50px;
+  background: none;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  top: 5px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#menuBtn img {
+  width: 60px;
+  margin-top: 10px;
 }
 
 /* ================================Media========================== */
@@ -149,12 +167,29 @@ nav ul li a {
   #banner {
     background: linear-gradient(
         109.6deg,
-        rgb(27, 5, 36) 18.2%,
-        rgba(238, 66, 102, 0.3) 100.2%
+        rgb(27, 5, 36) 88.2%,
+        rgba(238, 66, 102, 0.3) 160.2%
       ),
-      url(img/02.jpg);
+      url(./img/02.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+  }
+
+  #sideNav {
+    width: 200px;
+    height: 49vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+      rgba(0, 0, 0, 0.62) 0px 15px 12px;
+    background: linear-gradient(
+      109.6deg,
+      rgb(27, 5, 36) 88.2%,
+      rgba(238, 66, 102, 0.3) 160.2%
+    );
+    z-index: 2;
   }
 }
