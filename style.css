@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Raleway:wght@100;300;500;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:wght@100;300;500;700;800;900&display=swap');
 
 * {
   margin: 0;
@@ -30,7 +31,7 @@ body {
 }
 
 .banner-text h1 {
-  font-size: 6rem;
+  font-size: 8rem;
   font-family: "Arizonia";
   background: linear-gradient(45deg, #ffdf00, #c23b22);
   background-clip: text;
@@ -64,7 +65,7 @@ body {
     font-size: 5rem;
   }
   .banner-text p {
-    font-family: "Arizonia";
+    font-family: "Kaushan";
     font-size: 1.5rem;
     font-weight: 500;
     font-style: oblique;
