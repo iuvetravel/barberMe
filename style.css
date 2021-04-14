@@ -107,7 +107,7 @@ body {
   width: 250px;
   height: 50vh;
   position: fixed;
-  right: -450px;
+  right: -250px;
   top: 0;
   border-radius: 0 0 0 20px;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
@@ -256,7 +256,7 @@ nav ul li a {
     height: 46vh;
     position: fixed;
 
-    right: -450px;
+    right: -250px;
     top: 0;
     border-radius: 0 0 0 20px;
     box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
