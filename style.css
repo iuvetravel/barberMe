@@ -26,7 +26,7 @@ body {
 .logo {
   width: 15%;
   position: absolute;
-  top: 1%;
+  top: 0.4%;
   left: 1%;
 }
 
@@ -167,10 +167,10 @@ nav ul li a {
   #banner {
     background: linear-gradient(
         109.6deg,
-        rgb(27, 5, 36) 88.2%,
-        rgba(238, 66, 102, 0.3) 160.2%
+        rgb(27, 5, 36) 18.2%,
+        rgba(238, 66, 102, 0.3) 100.2%
       ),
-      url(./img/02.jpg);
+      url(img/01.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -186,9 +186,9 @@ nav ul li a {
     box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
       rgba(0, 0, 0, 0.62) 0px 15px 12px;
     background: linear-gradient(
-      109.6deg,
-      rgb(27, 5, 36) 88.2%,
-      rgba(238, 66, 102, 0.3) 160.2%
+      99.6deg,
+      rgb(27, 5, 36) 30.2%,
+      rgba(238, 66, 102, 0.3) 90.2%
     );
     z-index: 2;
   }
