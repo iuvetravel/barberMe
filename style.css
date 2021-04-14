@@ -165,7 +165,7 @@ nav ul li a {
 }
 
 .title-text p {
-  font-size: 6em;
+  font-size: 2em;
   font-family: "Kaushan Script";
   background: linear-gradient(85deg, #c23b22, #ffdf00);
   background-clip: text;
@@ -181,22 +181,8 @@ nav ul li a {
   display: inline-block;
 }
 
-.title-text p::after {
-  content: "";
-  width: 50px;
-  height: 65px;
-  background: linear-gradient(85deg, #c23b22, #ffdf00);
-  position: absolute;
-  top: 30px;
-  left: -35px;
-  z-index: -1;
-  transform: rotate(24deg);
-  border-top-left-radius: 35px;
-  border-bottom-right-radius: 35px;
-}
-
 .title-text h1 {
-  font-size: 8rem;
+  font-size: 4rem;
   font-family: "Kaushan Script";
   background: linear-gradient(85deg, #ffdf00, #c23b22);
   background-clip: text;
@@ -218,8 +204,73 @@ nav ul li a {
   text-align: center;
 }
 
+#features {
+  background: linear-gradient(
+      109.6deg,
+      rgb(27, 5, 36) 18.2%,
+      rgba(238, 66, 102, 0.3) 100.2%
+    ),
+    url(img/00.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 .features {
   flex-basis: 50%;
+}
+
+.features-img {
+  flex-basis: 40%;
+  margin: auto;
+}
+
+.features-img img {
+  margin: 20px;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+    rgba(0, 0, 0, 0.62) 0px 15px 12px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 8.2%,
+    rgba(0, 0, 0, 0.3) 100.2%
+  );
+}
+
+.features h1 {
+  text-align: center;
+  padding-left: 20px;
+  padding-bottom: 14px;
+  font-size: 1.5rem;
+  font-family: "Kaushan Script";
+  background: linear-gradient(85deg, #ffdf00, #c23b22);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  color: #f0b13b;
+  margin: auto;
+}
+
+.feature-box {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+    rgba(0, 0, 0, 0.62) 0px 15px 12px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 0, 0) 8.2%,
+    rgba(0, 0, 0, 0.3) 100.2%
+  );
+}
+
+.features-text p {
+  font-weight: 100;
+  margin-left: 20px;
+  font-size: 1.3em;
+  color: #f0b13b;
+  text-align: left;
 }
 
 /* ------------End Max Resolution------------- */
@@ -245,7 +296,7 @@ nav ul li a {
         rgb(27, 5, 36) 18.2%,
         rgba(238, 66, 102, 0.3) 100.2%
       ),
-      url(img/01.jpg);
+      url(img/02.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -295,5 +346,16 @@ nav ul li a {
     text-align: center;
     color: #f0b13b;
     margin: auto;
+  }
+  #features {
+    background: linear-gradient(
+        109.6deg,
+        rgb(27, 5, 36) 18.2%,
+        rgba(238, 66, 102, 0.3) 100.2%
+      ),
+      url(img/03.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
   }
 }
