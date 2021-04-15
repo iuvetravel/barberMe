@@ -430,6 +430,7 @@ nav ul li a {
   );
   cursor: pointer;
   color: #fff;
+  transition: transform 1s;
 }
 
 .testimonial-col p {
@@ -456,6 +457,10 @@ nav ul li a {
 .testimonial-col .span {
   text-transform: uppercase;
   color: #f0b13b;
+}
+
+.testimonial-col:hover {
+  transform: translateY(15px);
 }
 
 /* .user {
