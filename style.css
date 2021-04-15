@@ -32,6 +32,8 @@ body {
   position: absolute;
   top: 3%;
   left: 1%;
+  position: fixed;
+  z-index: 99;
 }
 
 .banner-text {
@@ -147,7 +149,7 @@ nav ul li a {
   right: 15px;
   top: 5px;
   border-radius: 3px;
-  z-index: 3;
+  z-index: 6;
   cursor: pointer;
 }
 
@@ -199,6 +201,8 @@ nav ul li a {
   text-align: center;
   color: #f0b13b;
   margin: auto;
+  text-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+    rgba(0, 0, 0, 0.62) 0px 15px 12px;
 }
 
 .feature-box {
@@ -220,6 +224,7 @@ nav ul li a {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding-top: 30px;
 }
 
 .features {
@@ -250,7 +255,8 @@ nav ul li a {
   padding-bottom: 0px;
   font-size: 1.5rem;
   font-family: "Kaushan Script";
-
+  text-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+    rgba(0, 0, 0, 0.62) 0px 15px 12px;
   text-align: left;
   color: rgb(255, 238, 0);
   margin: auto;
@@ -282,6 +288,11 @@ nav ul li a {
   border: 1px solid #ffdf00;
 }
 
+.title-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /* ------------- Services --------------- */
 
 #services {
@@ -296,6 +307,8 @@ nav ul li a {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .service-box {
@@ -307,7 +320,7 @@ nav ul li a {
 }
 
 .single-service {
-  flex-basis: 48%;
+  flex-basis: 50%;
   text-align: center;
   margin-bottom: 20px;
   color: #c23b22;
@@ -315,8 +328,8 @@ nav ul li a {
 }
 
 .single-service img {
-  width: 100%;
-  height: 400px;
+  width: 80%;
+  height: 100%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
     rgba(0, 0, 0, 0.62) 0px 15px 12px;
@@ -328,11 +341,12 @@ nav ul li a {
 }
 
 .overlay {
-  width: 100%;
+  width: 80%;
   height: 100%;
   position: absolute;
+  margin-left: 61px;
   top: 0;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
   background: linear-gradient(
     109.6deg,
@@ -357,28 +371,16 @@ nav ul li a {
   transition: 1s;
 }
 
-hr {
-  background: linear-gradient(
-    109.6deg,
-    rgba(238, 66, 102, 0.7) 18.2%,
-    rgb(255, 223, 0) 100.2%
-  );
-  height: 2px;
-  border: 0;
-  margin: 5px 0;
-  width: 100%;
-}
-
 .service-desc h3 {
   font-family: "Kaushan Script";
   color: #ffdf00;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .service-desc p {
-  transform: translateY(30%);
+  /* transform: translateY(30%); */
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 1.3em;
   font-weight: 100;
 }
@@ -395,6 +397,16 @@ hr {
 #testimonials {
   width: 100%;
   padding: 70px 0;
+  background: linear-gradient(
+      109.6deg,
+      rgba(238, 66, 102, 0.3) 18.2%,
+      rgb(27, 5, 36) 100.2%
+    ),
+    url(img/001.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .testimonial-row {
@@ -410,7 +422,7 @@ hr {
   flex-basis: 28%;
   padding: 10px;
   margin-bottom: 30px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
     rgba(0, 0, 0, 0.62) 0px 15px 12px;
   background: linear-gradient(
@@ -419,18 +431,50 @@ hr {
     rgba(238, 66, 102, 0.3) 90.2%
   );
   cursor: pointer;
+  color: #fff;
 }
 
 .testimonial-col p {
-  font-family: "K";
+  font-family: "Kaushan Script";
+  font-weight: 100;
+  font-size: 1em;
   line-height: 1.5em;
   color: #ffdf00;
   padding: 15px;
 }
 
+/* .testimonial-col img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+    rgba(0, 0, 0, 0.62) 0px 15px 12px;
+  background: linear-gradient(
+    99.6deg,
+    rgb(27, 5, 36) 30.2%,
+    rgba(238, 66, 102, 0.3) 90.2%
+  );
+} */
+
 .testimonial-col .span {
   text-transform: uppercase;
   color: #f0b13b;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.user img {
+  width: 120px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+.user-info fa {
+  margin-left: 10px;
+  color: #27c0ff;
+  font-size: 30px;
 }
 
 /* ------------ End Testimonials --------- */
@@ -493,6 +537,8 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
   }
   .title-text img {
     width: 150px;
+    margin-top: 5px;
+    margin-bottom: 0;
   }
 
   .title-text h1 {
@@ -506,7 +552,7 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
     -webkit-text-fill-color: transparent;
     text-align: center;
     color: #f0b13b;
-    margin: auto;
+    margin: 0;
     z-index: 1000;
   }
   #features {
