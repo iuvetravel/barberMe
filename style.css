@@ -165,7 +165,7 @@ nav ul li a {
 
 .title-text {
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 10px;
 }
 
 /* .title-text p {
@@ -186,7 +186,7 @@ nav ul li a {
 } */
 
 .title-text img {
-  width: 200px;
+  width: 300px;
 }
 
 .title-text h1 {
@@ -297,7 +297,7 @@ nav ul li a {
 
 #services {
   width: 100%;
-  padding: 70px 0;
+  padding: 20px 0;
   background: linear-gradient(
       109.6deg,
       rgb(27, 5, 36) 18.2%,
@@ -306,9 +306,7 @@ nav ul li a {
     url(img/10.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 130vh;
 }
 
 .service-box {
@@ -406,11 +404,11 @@ nav ul li a {
 
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .testimonial-row {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -419,7 +417,7 @@ nav ul li a {
 }
 
 .testimonial-col {
-  flex-basis: 28%;
+  flex-basis: 30%;
   padding: 10px;
   margin-bottom: 30px;
   border-radius: 20px;
@@ -443,7 +441,7 @@ nav ul li a {
   padding: 15px;
 }
 
-/* .testimonial-col img {
+.testimonial-col img {
   width: 100%;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
@@ -453,14 +451,14 @@ nav ul li a {
     rgb(27, 5, 36) 30.2%,
     rgba(238, 66, 102, 0.3) 90.2%
   );
-} */
+}
 
 .testimonial-col .span {
   text-transform: uppercase;
   color: #f0b13b;
 }
 
-.user {
+/* .user {
   display: flex;
   align-items: center;
   margin: 20px 0;
@@ -470,7 +468,7 @@ nav ul li a {
   width: 120px;
   margin-right: 20px;
   border-radius: 3px;
-}
+} */
 .user-info fa {
   margin-left: 10px;
   color: #27c0ff;
@@ -590,6 +588,13 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
     margin-bottom: 30px;
   }
 
+  .title-text img {
+    padding-top: 5px;
+  }
+  #services {
+    margin-top: 0;
+    padding-top: 0px;
+  }
   #services h1 {
     font-size: 2.2em;
   }
@@ -610,5 +615,59 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
   }
   .single-service:hover .service-desc {
     bottom: 28% !important;
+  }
+  .testimonial-col {
+    flex-basis: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+      rgba(0, 0, 0, 0.62) 0px 15px 12px;
+    background: linear-gradient(
+      99.6deg,
+      rgb(27, 5, 36) 30.2%,
+      rgba(238, 66, 102, 0.3) 90.2%
+    );
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .testimonial-col p {
+    font-family: "Kaushan Script";
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #ffdf00;
+    padding: 15px;
+  }
+
+  .testimonial-col img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
+      rgba(0, 0, 0, 0.62) 0px 15px 12px;
+    background: linear-gradient(
+      99.6deg,
+      rgb(27, 5, 36) 30.2%,
+      rgba(238, 66, 102, 0.3) 90.2%
+    );
+  }
+  #testimonials {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #testimonials {
+    width: 100%;
+    padding: 70px 0;
+    background: linear-gradient(
+        109.6deg,
+        rgba(238, 66, 102, 0.3) 18.2%,
+        rgb(27, 5, 36) 100.2%
+      ),
+      url(img/001.jpg);
+
+    background-size: cover;
+    background-position: center;
+    height: 220vh;
   }
 }
