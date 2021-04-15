@@ -372,11 +372,10 @@ nav ul li a {
 .service-desc h3 {
   font-family: "Kaushan Script";
   color: #ffdf00;
-  font-size: 1em;
+  font-size: 2.5em;
 }
 
 .service-desc p {
-  /* transform: translateY(30%); */
   color: #fff;
   font-size: 1em;
   line-height: 1.3em;
