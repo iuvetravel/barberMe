@@ -771,7 +771,7 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
   }
   .testimonial-col {
     flex-basis: 90%;
-    padding: 10px;
+    /* padding: 10px; */
     margin-bottom: 30px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px,
@@ -783,6 +783,7 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
     );
     cursor: pointer;
     color: #fff;
+    align-items: center;
   }
 
   .testimonial-col p {
@@ -810,7 +811,7 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
     padding-top: 10px;
   }
   #testimonials {
-    width: 100%;
+    width: 90%;
     padding: 70px 0;
     background: linear-gradient(
         109.6deg,
