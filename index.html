@@ -43,7 +43,7 @@
       </nav>
     </div>
     <div id="menuBtn">
-      <img src="img/logo-mic.webp" id="menu" />
+      <img src="img/logo-mic-yellow.png" id="menu" />
     </div>
 
     <section id="features">
@@ -284,6 +284,7 @@
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
       }
     </script>
+
     <!-- End Scroll -->
     <!-- ---------------------------------------------- -->
     <script>
@@ -294,10 +295,10 @@
       menuBtn.onclick = function () {
         if (sideNav.style.right === "-250px") {
           sideNav.style.right = "0";
-          menu.src = "img/03.webp";
+          menu.src = "img/033.png";
         } else {
           sideNav.style.right = "-250px";
-          menu.src = "img/logo-mic.webp";
+          menu.src = "img/logo-mic-yellow.png";
         }
       };
       var scroll = new SmoothScroll('a[href*="#"]', {
@@ -305,6 +306,5 @@
         speedAsDuration: true,
       });
     </script>
-    <script src="main.js"></script>
   </body>
 </html>
