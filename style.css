@@ -906,27 +906,27 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
   .footer-left h1 {
     position: relative;
     width: 350px;
-    top: 150px;
+    top: 200px;
     padding: 5px;
     margin-bottom: 20px;
   }
   .footer-left p {
     position: relative;
     width: 350px;
-    top: 140px;
+    top: 180px;
   }
 
   .footer-right h1 {
     position: relative;
     width: 350px;
     padding: 5px;
-    top: 110px;
+    top: 150px;
     right: 80px;
   }
   .footer-right p {
     position: relative;
     width: 350px;
-    top: 100px;
+    top: 140px;
     right: 70px;
   }
 
@@ -1025,7 +1025,7 @@ background: linear-gradient (109.6deg, rgba(238, 66, 102, 0.3) 18.2%, rgb(27, 5,
   }
   .last h1 {
     position: relative;
-    top: 50px;
+    top: 100px;
   }
   #footer h1 {
     font-size: 2em;
