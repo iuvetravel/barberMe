@@ -7,6 +7,12 @@
   padding: 0;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .container-overflowing-horizontally-class {
+    padding-bottom: 20px;
+  }
+}
+
 body {
   font-family: "Raleway", "Arizonia", "Kaushan Script", sans-serif;
 }
