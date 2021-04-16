@@ -11,6 +11,11 @@ body {
   font-family: "Raleway", "Arizonia", "Kaushan Script", sans-serif;
 }
 
+html, body {
+  overflow: auto; 
+  overflow-x: hidden; 
+}
+
 #banner {
   background: linear-gradient(
       109.6deg,
